@@ -3,15 +3,15 @@ import { useInView } from 'motion/react';
 import { useRef, useState } from 'react';
 import Masonry from 'react-responsive-masonry';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import img1 from '../../imports/Capture_d__cran_2026-05-29_193141.png';
-import img2 from '../../imports/Capture_d__cran_2026-05-29_193156.png';
-import img3 from '../../imports/Capture_d__cran_2026-05-29_193207.png';
-import img4 from '../../imports/Capture_d__cran_2026-05-29_193227.png';
+import img1 from '../../imports/Capture_d__cran_2026-05-29_193328.png';
+import img2 from '../../imports/Capture_d__cran_2026-05-29_193320.png';
+import img3 from '../../imports/Capture_d__cran_2026-05-29_193303.png';
+import img4 from '../../imports/Capture_d__cran_2026-05-29_193248.png';
 import img5 from '../../imports/Capture_d__cran_2026-05-29_193237.png';
-import img6 from '../../imports/Capture_d__cran_2026-05-29_193248.png';
-import img7 from '../../imports/Capture_d__cran_2026-05-29_193303.png';
-import img8 from '../../imports/Capture_d__cran_2026-05-29_193320.png';
-import img9 from '../../imports/Capture_d__cran_2026-05-29_193328.png';
+import img6 from '../../imports/Capture_d__cran_2026-05-29_193227.png';
+import img7 from '../../imports/Capture_d__cran_2026-05-29_193207.png';
+import img8 from '../../imports/Capture_d__cran_2026-05-29_193156.png';
+import img9 from '../../imports/Capture_d__cran_2026-05-29_193141.png';
 
 export function Gallery() {
   const ref = useRef(null);
